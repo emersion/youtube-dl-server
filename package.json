@@ -1,0 +1,30 @@
+{
+  "name": "youtube-dl-server",
+  "version": "0.0.1",
+  "description": "A streaming server for youtube-dl",
+  "main": "public/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "webpack",
+    "watch": "webpack --watch --progress"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/emersion/youtube-dl-server.git"
+  },
+  "author": "emersion",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/emersion/youtube-dl-server/issues"
+  },
+  "homepage": "https://github.com/emersion/youtube-dl-server#readme",
+  "devDependencies": {
+    "css-loader": "^0.25.0",
+    "vue-loader": "^9.7.0",
+    "webpack": "^1.13.2"
+  },
+  "dependencies": {
+    "fetch-ponyfill": "^3.0.2",
+    "vue": "^2.0.3"
+  }
+}
